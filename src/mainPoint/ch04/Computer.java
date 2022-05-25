@@ -1,0 +1,16 @@
+package mainPoint.ch04;
+
+public abstract class Computer {
+	
+	abstract void display();
+	abstract void typing();
+	
+	public void turnOn() {
+		System.out.println("전원을 켠다.");
+	}
+	
+	public void turnOff() {
+		System.out.println("전원을 끈다.");
+	}
+
+}
